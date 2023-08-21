@@ -14,7 +14,7 @@ import {
 
 } from 'react-router-dom'
 
-axios.defaults.baseURL = 'http://localhost:8000';
+axios.defaults.baseURL = 'https://foodkart-he66.onrender.com';
 axios.defaults.withCredentials = true;
 
 function App() {
