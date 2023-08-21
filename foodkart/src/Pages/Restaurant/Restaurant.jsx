@@ -16,7 +16,7 @@ export default function Restaurant() {
     }
     useEffect( ()=> {
         call()
-    },[restaurantId])
+    })
     // console.log(restaurantId)
     console.log(foodItem)
   return (
