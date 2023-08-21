@@ -14,7 +14,7 @@ import {
 
 } from 'react-router-dom'
 
-axios.defaults.baseURL = 'http://localhost:8000';
+axios.defaults.baseURL = 'https://foodkart2606.netlify.app';
 axios.defaults.withCredentials = true;
 
 function App() {
