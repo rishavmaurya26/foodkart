@@ -52,27 +52,27 @@ export default function Register() {
         <div className="form-container  col-4">
           <form className="row g-3" onSubmit={userRegister}>
             <div className="col-md-6 my-1">
-              <label for="First Name" className="form-label" >First Name</label>
+              <label  className="form-label" >First Name</label>
               <input type="text" className="form-control border-secondary" id="First Name" value = {data.firstName} onChange={(e)=> setData({...data,firstName:e.target.value})} />
             </div>
             <div className="col-md-6 my-1">
-              <label for="Last Name" className="form-label">Last Name</label>
+              <label  className="form-label">Last Name</label>
               <input type="text" className="form-control border-secondary" id="Last Name" value = {data.lastName} onChange={(e)=> setData({...data,lastName:e.target.value})}/>
             </div>
             <div className="col-md-6 my-1">
-              <label for="inputEmail4" className="form-label" >Email</label>
+              <label  className="form-label" >Email</label>
               <input type="email" className="form-control border-secondary" id="inputEmail4" value = {data.email} onChange={(e)=> setData({...data,email:e.target.value})} />
             </div>
             <div className="col-md-6 my-1">
-              <label for="contactnumber" className="form-label" >Contact Number</label>
+              <label  className="form-label" >Contact Number</label>
               <input type="number" className="form-control border-secondary" id="contactnumber" value = {data.contact} onChange={(e)=> setData({...data,contact:e.target.value})}  />
             </div>
             <div className="col-md-6 my-1">
-              <label for="inputPassword4" className="form-label" >Password</label>
+              <label  className="form-label" >Password</label>
               <input type="password" className="form-control border-secondary" id="inputPassword4" value = {data.password} onChange={(e)=> setData({...data,password:e.target.value})}  />
             </div>
             <div className="col-md-6 my-1">
-              <label for="inputPasswordConfirm4" className="form-label" >Confirm Password</label>
+              <label  className="form-label" >Confirm Password</label>
               <input type="password" className="form-control border-secondary" id="inputPasswordConfirm4" />
             </div>
             <div className="col-5 my-2">

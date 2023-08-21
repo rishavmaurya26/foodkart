@@ -42,11 +42,11 @@ export default function Login() {
         <div className="form-container-sign my-4 col-4 d-flex justify-content-center">
           <form className="row g-3" onSubmit={loginUser}>
             <div className="col-md-12 my-1">
-              <label for="inputEmail4" className="form-label">Email</label>
+              <label  className="form-label">Email</label>
               <input type="email" className="form-control border-secondary" placeholder="rishav@gmail.com" id="inputEmail4"  value = {data.email} onChange={(e)=> setData({...data,email:e.target.value})}  />
             </div>
             <div className="col-md-12 my-1">
-              <label for="inputPassword4" className="form-label">Password</label>
+              <label className="form-label">Password</label>
               <input type="password" className="form-control border-secondary" id="inputPassword4" placeholder="Rishav26$" value = {data.password} onChange={(e)=> setData({...data,password:e.target.value})} />
             </div>
             <div className="col-5 my-2">
