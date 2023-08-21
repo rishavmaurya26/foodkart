@@ -22,4 +22,4 @@ app.use('/foodItem',foodItemRouter)
 
 
 const port = process.env.PORT || 8000
-app.listen(port, () => {console.log(`listening on port ${8000}`)})
+app.listen(port, () => {console.log(`listening on port ${port}`)})
