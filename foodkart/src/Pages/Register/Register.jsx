@@ -4,19 +4,19 @@ import { Link,  } from 'react-router-dom';
 import axios from 'axios';
 import {toast} from 'react-hot-toast';
 import {useNavigate} from "react-router-dom";
-import  Button from 'react-bootstrap/button';
+import  Button from 'react-bootstrap/Button';
 import { useContext } from 'react';
 import { UserContext } from '../../contexts/UserContext';
 
 export default function Register() {
   var {user} = useContext(UserContext)
   console.log(user)
+  const navigate = useNavigate()
   if(!user)
   {
     navigate('/')
     window.location.reload()
   }
-  const navigate = useNavigate()
   const [data,setData] = useState({
     firstName: "",
     lastName:"",
