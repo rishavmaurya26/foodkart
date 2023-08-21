@@ -1,0 +1,42 @@
+form{
+    width:40vw;
+}
+
+.icon{
+    height: 50px;
+    width:80px;
+}
+
+#signin .formpage-container{
+    width:100%;
+    height:100vh;
+}
+
+.register-form{
+    width: 100%;
+    /* background-color: white; */
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form-container-sign{
+    width:30vw;
+    height: max-content;
+    /* background-color: bisque;  */
+}
+
+@media screen and (max-width:750px){
+
+    /* h2{
+        font-size: small;
+    } */
+    .company,.form-container-sign,form{
+        width: 100%;
+    }
+    
+    #signin Link{
+        font-size: small;
+    }
+}

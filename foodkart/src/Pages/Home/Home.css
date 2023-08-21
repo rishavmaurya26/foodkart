@@ -1,0 +1,32 @@
+.home-container {
+    width: 100%;
+    height: max-content;
+    
+    
+}
+
+.foodItemContainer{
+    width: 96% !important;
+    height: 300px;
+    background-color: rgb(245, 236, 217);
+}
+.foodItem{
+
+    width:250px;
+    height: 250px;
+}
+
+.foodItemImg {
+    height: 200px;
+    width:  200px;
+    object-fit: cover;
+}
+.foodItemContainer::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .foodItemContainer {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }

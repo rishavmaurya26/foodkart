@@ -1,0 +1,16 @@
+.foodItem {
+    height: 250px;
+    width:70% !important;
+    object-fit: contain;
+    /* border: 2px solid rgb(177, 167, 167); */
+    background-color: rgb(176, 184, 184);
+}
+.foodImage{
+    height: 220px;
+    width:30%;
+}
+.aboutFood,.orderFood{
+    width: 30%;
+    height: 90%;
+    /* background-color: antiquewhite; */
+}
