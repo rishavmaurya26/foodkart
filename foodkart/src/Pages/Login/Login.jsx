@@ -18,7 +18,6 @@ export default function Login() {
       const userdata = data;
       try{
         const res = await axios.post("./",userdata)
-       // console.log(res.data)
         if(res.data.error)
           toast.error(res.data.error)
         else {
@@ -33,7 +32,6 @@ export default function Login() {
     }
     
   }
-  // window.location.reload()
   return (
     <div>
        <div className='formpage-container' id="signin">
