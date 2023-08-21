@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Restaurant =  require('../models/Restaurant')
+const Restaurant =  require('../models/Restaurant');
 const foodItem = require('../models/FoodItem');
 const cors = require('cors'); // will be used to maker request to a backend server from a different domain or source
 //cors middeware
