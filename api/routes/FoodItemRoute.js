@@ -6,7 +6,7 @@ const cors = require('cors'); // will be used to maker request to a backend serv
 
   router.use(cors({
      credentials:true,
-     origin: 'https://foodkart2606.netlify.app'
+     origin: 'http://localhost:3000'
 }))
 
 router.get('/',(req,res) => {
