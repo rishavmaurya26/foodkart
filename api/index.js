@@ -11,7 +11,7 @@ const restaurantrouter =  require('./routes/RestaurantRoute')
 const connect = async() => {
     await mongoose.connect(process.env.MONGO_URL)
     .then(() => console.log("Databse connection established"))
-    .catch((err) => console.error("Database not connected. ".err))
+    .catch((err) => console.error("Database not connected. ",err))
 }
 connect()
 
